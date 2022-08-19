@@ -30,7 +30,7 @@ p {
 
 img {
     max-height: 100%;
-    object-fit: contain;
+    max-width: fit-content;
 }
 
 .gymimg {
@@ -74,8 +74,10 @@ button {
 }
 
 .card {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-shrink: 1;
     border: #3882F6;
 }
 
@@ -101,4 +103,48 @@ h2 {
     flex-direction: column;
     align-items: space-between;
     justify-content: center;
+    margin: 60px;
 }
+
+.text {
+    font-weight: bold;
+}
+
+.container4 {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding: 16px;
+}
+
+.container6 {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Note to self - could have done all of this with flex and direction being column */
